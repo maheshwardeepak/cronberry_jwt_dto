@@ -1,0 +1,78 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta content="telephone=no" name="format-detection" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cronberry</title>
+    <style type="text/css">
+        body {
+            padding: 0px !important;
+            -webkit-text-size-adjust: 100% !important;
+            -ms-text-size-adjust: 100% !important;
+            -webkit-font-smoothing: antialiased !important;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin: 0 0 10px;
+            line-height: 1.5em;
+        }
+
+        .table {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            color: #232424;
+        }
+
+        @media only screen and (max-width:480px) {
+            .table {
+                font-size: 13px;
+            }
+
+            .footer,
+            .footer tr,
+            .footer tbody {
+                display: block;
+                height: auto !important;
+                width: 100%;
+            }
+
+            .footer td {
+                display: block;
+                width: 100%;
+                text-align: center !important;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+
+<body class="body" style="max-width:600px; margin:auto;background:#fff; color:#232424">
+    <div style="background:#f9fbfc; padding:20px 20px 0px;">
+        <table class="table" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse; background-color:#f9fbfc;">
+            <tr>
+                <td colspan="2" style="padding:0px 0px 10px;" align="left" valign="top">
+                    <a href="https://www.cronberry.com">
+                        <img usemap="#image-map" src="${logoUrl}" border="0" style="width:120px;" />
+                    </a>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" style="border-top:1px solid #e0e0e0; padding:10px 0px 0">
+                    <p style="margin:0 0 10px;text-align:center;">You requested to verify your email and for that please use one time password.  </p>
+                    <div style="margin:10px 0 10px; text-align:center">
+                        <span style="color:#cd0141; display:inline-block; letter-spacing: 2px;font-size:18px;font-weight:500;">${otp}</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
